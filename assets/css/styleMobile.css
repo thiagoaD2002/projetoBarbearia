@@ -58,7 +58,7 @@
         background-repeat: no-repeat;
         background-size: cover;
         background-position: center center;
-        background-attachment: fixed;
+        
 
         display: flex;
         flex-direction: column;
@@ -148,6 +148,90 @@
         box-shadow: 0 0 5px #c0c2ee68 ;
     }
    
+    /* PARCEIROS */
+
+    .titParceiros{
+        margin-top: 80px;
+        text-align: center;
+    }
+
+    .secParceiros{
+        margin-top: 25px;
+        display: flex;
+        flex-direction: row;
+        overflow-x: auto;
+        gap: 25px;
+        padding: 5px;
+        scroll-behavior: smooth;
+    }
+
+
+    .secParceiros:hover .divParceiros:not(:hover){
+        opacity: .6;
+        transform: scale(.9);
+    }
+
+    .secParceiros::-webkit-scrollbar{
+        background-color: var(--cor9);
+        height: 12px;
+        border-radius: 2px;
+    }
+    .secParceiros::-webkit-scrollbar-thumb{
+      background-color: var(--cor8);
+      border-radius: 4px;
+    }
+
+    .parcConteiner p{
+        color: #0F0139;
+        font-family: var(--fontRoboto);
+        margin-top: 5px;
+        font-size: 1em;
+        
+    }
+    .parcConteiner > p:last-child{
+        margin-top: 2px;
+        opacity: .5;
+        font-size: .8em;
+    }
+
+    .divParceiros{
+        flex: 0 0 15rem;
+        width: 250px;
+        height: 150px;
+        border: 1px solid #7871D1;
+        border-radius: 7px;
+        box-shadow: 1px 1px 4px 1px #5b53c56a;
+        cursor: pointer;
+        transition: .35s ease-in-out;
+    }
+
+    
+    .parceiro1{
+        background-image: url(../midia/imgs/Barbeiro1.jpg);
+        background-size: cover;
+        
+    }
+    .parceiro2{
+        background-image: url(../midia/imgs/Barbeiro2.jpg);
+        background-size: cover;
+
+    }
+    .parceiro3{
+        background-image: url(../midia/imgs/Barbeiro3.jpg);
+        background-size: cover;
+
+    }
+    .parceiro4{
+        background-image: url(../midia/imgs/Barbeiro4.jpg);
+        background-size: cover;
+
+    }
+    .parceiro5{
+        background-image: url(../midia/imgs/Barbeiro5.jpg);
+        background-size: cover;
+
+    }
+
     @keyframes textoPiscando {
         0%{
             text-shadow: 0 0 0 transparent;
@@ -174,6 +258,18 @@
         }
         100%{
              box-shadow: 1px 1px 4px 1px #9d98df37;
+        }
+    }
+
+    @keyframes card3D {
+        0%{
+            transform: scale(1);
+        }
+        50%{
+            transform: scale(1.1);
+        }
+        100%{
+            transform: scale(1);
         }
     }
 }
