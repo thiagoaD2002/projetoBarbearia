@@ -78,7 +78,6 @@
    
 
     main{
-        border: 1px solid red;
         background-color: var(--cor10);
 
         display: flex;
@@ -194,6 +193,26 @@
         font-size: .8em;
     }
 
+    .divAvaliacao{
+        width: 100px;
+        height: 60px;
+        background-color: #110a2574;
+        border-radius: 0px 0px 0px 4px;
+    }
+
+    .divAvaliacao p {
+        font: 1em;
+        color: var(--cor10);
+        text-align: center;
+        font-size: 1em;
+        font-family: var(--fontPoppins);
+    }
+    .divAvaliacao p:last-child{
+        font-size: .7em;
+        font-weight: normal;
+        font-family: var(--fontRoboto);
+    }
+
     .divParceiros{
         flex: 0 0 15rem;
         width: 250px;
@@ -203,6 +222,9 @@
         box-shadow: 1px 1px 4px 1px #5b53c56a;
         cursor: pointer;
         transition: .35s ease-in-out;
+
+        display: flex;
+        justify-content: right;
     }
 
     
@@ -231,6 +253,66 @@
         background-size: cover;
 
     }
+
+    /* APLICATIVO */
+
+    .secOutros{
+        margin-top: 100px;
+        background-color: #210656;
+    }
+
+    .secOutros > h3{
+        grid-area: h3;
+        margin-top: 50px;
+        color: var(--cor10);
+        font-family: var(--fontPoppins);
+        font-size: 1em;
+        font-weight: normal;
+        margin-left: 15px;
+
+    }
+
+    .secStore{
+        margin-top: 50px;
+        margin-left: 15px;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        
+
+    }
+
+    .secStore > div{
+        border: 1px solid #FEFEFF;
+        width: 140px;
+        height: 50px;
+        box-shadow: 1px 1px 4px 1px #7871d164;
+
+        border-radius: 8px;
+        color: var(--cor10);
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: .9em;
+        font-family: var(--fontPoppins);
+        cursor: pointer;
+
+        animation: storePiscando 3s infinite ease-in-out forwards;
+        transition: .25s;
+    }
+
+    .secStore > div:hover{
+         transform: translateY(-2px);
+    }
+    .logoApple, .logoPlay{
+        margin-right: 5px;
+    }
+
+    .secLogo{
+        grid-area: logo;
+    }
+
 
     @keyframes textoPiscando {
         0%{
@@ -270,6 +352,18 @@
         }
         100%{
             transform: scale(1);
+        }
+    }
+
+        @keyframes storePiscando {
+        0%{
+             box-shadow: 1px 1px 4px 1px #7871d164;
+        }
+        50%{
+            box-shadow: 1px 1px 4px 1px #7871d1a4;
+        }
+        100%{
+             box-shadow: 1px 1px 4px 1px #9d98df37;
         }
     }
 }
