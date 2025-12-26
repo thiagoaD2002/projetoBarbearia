@@ -414,11 +414,11 @@
    }
    .fromLeft{
     transform: translateX(-50px);
-    overflow-x: hidden;
+   
    } 
    .fromRight{
     transform: translateX(50px);
-    overflow-x: hidden;
+    
    }
    .show{
     opacity: 1;
