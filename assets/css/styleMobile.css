@@ -256,6 +256,13 @@
 
     /* APLICATIVO */
 
+
+    .conteinerSobre{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
     .secOutros{
         margin-top: 100px;
         background-color: #210656;
@@ -278,8 +285,6 @@
         display: flex;
         flex-direction: column;
         gap: 20px;
-        
-
     }
 
     .secStore > div{
@@ -310,9 +315,75 @@
     }
 
     .secLogo{
-        grid-area: logo;
+        display: flex;
+        align-items: center;
+        margin-top: 50px;
+        margin-right: 30px;
     }
 
+   .iconLogo{
+    width: 80px;
+    height: 80px;
+    border-radius: 18px;
+
+    background-color: var(--cor6);
+
+    position: relative;
+    cursor: pointer;
+    transition: .25s;
+   }
+
+   .iconLogo:hover{
+    transform: translateY(-2px);
+    box-shadow: 1px 1px 4px 1px #fefeff50;
+   }
+
+   .iconLogo > .bolinha{
+    background-color: var(--cor9);
+    height: 5px;
+    width: 5px;
+    
+    border-radius: 50%;
+
+    position: absolute;
+    top: 10px;
+    left: 10px;
+   }
+
+   .iconLogo > .ret1{
+    background-color: var(--cor9);
+    width: 55px;
+    height: 4px;
+    border-radius: 2px;
+
+    position: absolute;
+    top: 38px;
+    left: 11px;
+    transform: rotate(-40deg);
+   }
+
+   .iconLogo > .ret2 {
+    background-color: var(--cor1);
+    width: 40px;
+    height: 4px;
+    border-radius: 2px;
+
+    position: absolute;
+    top: 45px;
+    left: 25px;
+
+    transform: rotate(-40deg);
+   }
+
+   .secLogo > h1{
+    color: var(--cor10);
+    font-family: var(--fontTitulo);
+    font-size: 1.7em;
+    margin-left: 10px;
+
+    cursor: pointer;
+
+   }
 
     @keyframes textoPiscando {
         0%{
