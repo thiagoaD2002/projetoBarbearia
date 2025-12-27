@@ -17,19 +17,17 @@ todosElementos.forEach(el => observador.observe(el))
 // EFEITO MENU HAMBURGUER
 
 const menuHamburguer = document.querySelector(".menuHamburguer") 
+const menuOptions = document.querySelector(".menuOptions")
+const hideSite = document.querySelectorAll(".hide")
+const body = document.querySelector("body")
+
 menuHamburguer.addEventListener("click",()=>{
-    const menuOptions = document.querySelector(".menuOptions")
-    const hideSite = document.querySelectorAll(".hide")
-    const body = document.querySelector("body")
     body.classList.toggle("bodyOverflow")
-    
+
 
     hideSite.forEach((el)=>{
         el.classList.toggle("hideAtiv")
     })
 
     menuOptions.classList.toggle("showMenu")
-    
-    
-    const alHide = document.querySelectorAll(".hide")
 })

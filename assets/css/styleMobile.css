@@ -486,13 +486,14 @@
  .hideAtiv{
     z-index: 0;
     opacity: .5;
+    pointer-events: none;
     
    }
 
    .showMenu{
     opacity: 1;
     transform: translateY(0);
-    transition: .3s;
+    transition: opacity .3s, transform .3s;
    }
 
    .bodyOverflow{
