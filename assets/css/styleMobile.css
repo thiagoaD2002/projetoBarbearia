@@ -31,6 +31,7 @@
         width: 100%;
         height: 100vw;
         overflow-x: hidden;
+        /* overflow-y: hidden; */
     }
 
     header{
@@ -52,6 +53,7 @@
     }
     header > img{
         margin-right: 15px;
+        cursor: pointer;
     }
     .fundoBarbearia{
         height: 450px;
@@ -64,6 +66,8 @@
         display: flex;
         flex-direction: column;
         justify-content: center;
+
+        
     }
     .fundoBarbearia > p{
         color: var(--cor10);
@@ -83,6 +87,8 @@
 
         display: flex;
         flex-direction: column;
+
+        
     }
 
     .divTitForm{
@@ -424,6 +430,77 @@
     opacity: 1;
     transform: translateX(0);
    }
+
+   /* MENU MOBILE */
+
+  
+
+   .menuOptions{
+    background-color: var(--cor6);
+    height: 250px;
+    width: 100%;
+   
+    box-shadow: 1px 1px 4px 1px #5851be6f;
+    z-index: 1;
+    position: absolute;
+
+    transform: translateY(-5px);
+    transition: .5s ease;
+
+    opacity: 0;
+    
+   }
+   
+   .menuOptions div {
+    margin-top: 50px;
+    margin-left: 20px;
+
+    font-family: var(--fontRoboto);
+    font-size: 1.1em;
+    color: var(--cor10);
+
+    display: flex;
+    align-items: center;
+    gap: 5px;
+
+    max-width: 140px;
+    cursor: pointer;
+
+    transform: translateY(-8px);
+    transition: .7s ease;
+
+   }
+
+   .menuOptions div:last-child{
+    margin-top: 20px;
+   }
+   .menuOptions p{
+    transition: .25s ease-in-out;
+   }
+   .menuOptions p:hover{
+    color: var(--cor3);
+    transform: translateY(-2px);
+   }
+   
+   /* EFEITO MENU APARECENDO */
+ .hideAtiv{
+    z-index: 0;
+    opacity: .5;
+    
+   }
+
+   .showMenu{
+    opacity: 1;
+    transform: translateY(0);
+    transition: .3s;
+   }
+
+   .bodyOverflow{
+    overflow-y: hidden;
+   }
+
+   
+
 
     @keyframes textoPiscando {
         0%{
