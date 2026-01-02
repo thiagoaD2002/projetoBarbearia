@@ -475,7 +475,7 @@
     margin-top: 20px;
    }
    .menuOptions p{
-    transition: .25s ease-in-out;
+    transition: .15s ease-in-out;
    }
    .menuOptions p:hover{
     color: var(--cor3);

@@ -30,4 +30,6 @@ menuHamburguer.addEventListener("click",()=>{
     })
 
     menuOptions.classList.toggle("showMenu")
+
 })
+
