@@ -59,7 +59,7 @@
     }
 
     main{
-        width: 420px;
+        width: 360px;
         height: 500px;
         border: 1px solid #7871D1;
         border-radius: 15px;
@@ -74,7 +74,7 @@
     main h1{
         font-family: var(--fontPoppins);
         text-align: center;
-        font-size: 1.3em;
+        font-size: 1.1em;
         font-weight: normal;
         margin-top: 30px;
 
@@ -91,14 +91,14 @@
     }
 
     form input{
-        width: 250px;
+        width: 190px;
         height: 33px;
         border: 1px solid #E2E2F7;
         border-radius: 5px;
 
         text-indent: 10px;
         font-family: var(--fontRoboto);
-        font-size: .8em;
+        font-size: .7em;
     }
     form input:focus{
         outline: none;
@@ -114,11 +114,11 @@
     }
 
     .conteinerInput img{
-        width: 20px;
+        width: 18px;
     }
     .btnConfirmar{
         margin-top: 20px;
-        width: 125px;
+        width: 115px;
         border: none;
         border-radius: 4px;
         height: 35px;
@@ -126,7 +126,7 @@
 
         color: var(--cor9);
         font-family: var(--fontPoppins);
-        font-size: .8em;
+        font-size: .7em;
         transition: .2s;
 
         cursor: pointer;
@@ -142,11 +142,11 @@
         margin-top: 50px;
         display: flex;
         flex-direction: row;
-        gap: 15px;
+        gap: 30px;
         
     }
     .conteinerButtons button{
-        width: 120px;
+        width: 105px;
         height: 35px;
 
         display: flex;
@@ -161,8 +161,8 @@
         transition: .2s;
     }
     .logoSocial{
-        width: 21px;
-        height: 21px;
+        width: 18px;
+        height: 18px;
         color: var(--cor1);
 
     }
