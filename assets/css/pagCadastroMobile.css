@@ -70,7 +70,7 @@
         animation: formPiscando infinite 5s ease-in-out forwards;
         animation: showMain ease .5s forwards;
 
-        margin-bottom: 40px;
+        margin-bottom: 70px;
     }
     main h1{
         font-family: var(--fontPoppins);
