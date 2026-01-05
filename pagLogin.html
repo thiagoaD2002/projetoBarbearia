@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvoirFru</title>
+    <link rel="stylesheet" href="./assets/css/pagLoginMobile.css">
+</head>
+<body>
+     <header>
+        <a href="index.html" class="linkTitulo" target="_self" rel="prev">
+            <h1>Avoir<span style="color: #5B53C5; font-weight: bold;">Fru</span>.</h1>
+        </a>
+    </header>
+
+    <main>
+        <h1>Entrar</h1>
+        <form>
+
+            <div class="conteinerInput">
+                <img src="assets/midia/icons/iconMail.svg" alt="icone de email">
+                <input type="email" name="email" id="iEmail" placeholder="Email" autocomplete="off" >
+            </div>
+
+            <div class="conteinerInput">
+                <img src="assets/midia/icons/iconLock.svg" alt="icone de senha">
+                <input type="password" name="senha" id="iSenha" autocomplete="off" placeholder="Senha">
+            </div>
+
+            <button type="button" class="btnConfirmar">Confirmar</button>
+
+            <div class="conteinerButtons">
+
+                <button type="button">
+                    <ion-icon name="logo-google" class="logoSocial"></ion-icon>
+                </button>
+
+                <button type="button">
+                    <ion-icon name="logo-facebook" class="logoSocial"></ion-icon>
+                </button>
+
+            </div>
+
+            <p>Não possui uma conta? 
+                <span><a href="pagCadastro.html" rel="next" class="linkRegis">Registre-se.</a>
+                </span></p>
+        </form>
+    </main>
+
+
+     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+</body>
+</html>

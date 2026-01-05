@@ -474,13 +474,27 @@
    .menuOptions div:last-child{
     margin-top: 20px;
    }
+ .menuOptions a{
+    text-decoration: none;
+   }
+   
+   .menuOptions a:visited{
+    color: var(--cor10);
+   }
+
+   .menuOptions a:hover{
+    color: var(--cor3);
+   }
    .menuOptions p{
     transition: .15s ease-in-out;
    }
    .menuOptions p:hover{
-    color: var(--cor3);
+   
     transform: translateY(-2px);
+    
    }
+
+  
    
    /* EFEITO MENU APARECENDO */
  .hideAtiv{
