@@ -31,6 +31,7 @@
         width: 100%;
         min-height: 100vh;
         overflow-x: hidden;
+        padding-bottom: 10px;
     }
 
     header{
@@ -40,6 +41,7 @@
        display: flex;
        align-items: center;
        justify-content: space-between;
+       
 
     }
      .linkTitulo h1 {
@@ -64,13 +66,13 @@
         border: 1px solid #7871D1;
         border-radius: 15px;
         margin: auto;
-        margin-top: 80px;
+        margin-top: 60px;
+        margin-bottom: 100px;
         box-shadow: 1px 1px 4px 1px #E2E2F7;
 
         animation: formPiscando infinite 5s ease-in-out forwards;
         animation: showMain ease .5s forwards;
 
-        margin-bottom: 70px;
     }
     main h1{
         font-family: var(--fontPoppins);
