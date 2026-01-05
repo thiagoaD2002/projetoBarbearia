@@ -474,12 +474,13 @@
    .menuOptions div:last-child{
     margin-top: 20px;
    }
- .menuOptions a{
+    .menuOptions a{
     text-decoration: none;
+    color: inherit;
    }
    
    .menuOptions a:visited{
-    color: var(--cor10);
+    color: inherit;
    }
 
    .menuOptions a:hover{
@@ -487,6 +488,7 @@
    }
    .menuOptions p{
     transition: .15s ease-in-out;
+    
    }
    .menuOptions p:hover{
    
