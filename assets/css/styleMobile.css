@@ -412,6 +412,14 @@
     font-size: 1em;
    }
 
+   .linkParceiro{
+     text-decoration: none;
+   }
+
+   .linkParceiro:visited{
+    color: var(--cor10);
+   }
+
 
    /*ANIMAÇAO SCROLL*/
    .todo{

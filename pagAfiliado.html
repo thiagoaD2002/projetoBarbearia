@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AvoirFru</title>
+    <link rel="stylesheet" href="styleAfiliado.css">
+</head>
+<body>
+     <header>
+        <a href="index.html" class="linkTitulo" target="_self" rel="prev">
+            <h1>Avoir<span style="color: #5B53C5; font-weight: bold;">Fru</span>.</h1>
+        </a>
+    </header>
+    <main>
+        <h1>Afiliar sua empresa</h1>
+
+        <form>
+            <label for="iNome">Nome completo</label>
+            <input type="text" name="nome" id="iNome" autocomplete="off">
+
+            <label for="iEmail">Email</label>
+            <input type="email" name="email" id="iEmail" autocomplete="off">
+
+           <h2>Localidade<span style="color: #9D98DF;" >.</span></h2>
+
+           <label for="iCidade">Cidade</label>
+           <input type="text" name="cidade" id="iCidade" autocomplete="off">
+
+           <div class="bairroConteiner">
+            <label for="iBairro" class="bairro">Bairro</label>
+            <input type="text" name="bairro" id="iBairro" class="inputBairro" autocomplete="off">
+
+            <label for="iCasa">N° Casa</label>
+            <input type="text" name="cep" id="iCasa" autocomplete="off">
+           </div>
+
+           <label for="iCep">CEP</label>
+           <input type="text" name="cep" id="iCep" autocomplete="off">
+           
+           <label for="iEmpresa">Nome da Empresa</label>
+           <input type="text" name="empresa" id="iEmpresa" autocomplete="off">
+
+            <button type="button" class="btnConfirmar">Confirmar</button>
+        </form>
+    </main>
+</body>
+</html>

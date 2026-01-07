@@ -62,7 +62,7 @@
 
     main{
         width: 360px;
-        height: 650px;
+        height: 750px;
         border: 1px solid #7871D1;
         border-radius: 15px;
         margin: auto;
@@ -114,7 +114,41 @@
         border: 1px solid var(--cor1);
         box-shadow: 0 0 5px #c0c2ee68 ;
     }
-      .btnConfirmar{
+    form h2{
+        font-size: 1em;
+        font-family: var(--fontPoppins);
+        font-weight: normal;
+        margin-left: 40px;
+        margin-top: 20px;
+        margin-bottom: 30px;
+
+    }
+
+    .bairroConteiner{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 20px 20px;
+
+        grid-template-areas: 
+        "bairro casa"
+        "inputBairro inputCasa";
+        height: 70px;
+
+        margin-bottom: 15px;
+    }
+    .bairro{
+        grid-area: bairro;
+
+    }
+    .inputBairro{
+        grid-area: inputBairro;
+        width: 180px;
+    }
+
+    #iCasa{
+        width: 80px;
+    }
+     .btnConfirmar{
         margin-top: 20px;
         width: 115px;
         border: none;
