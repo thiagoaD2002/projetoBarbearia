@@ -156,7 +156,7 @@
         width: 22px;
     }
     .conteinerDias{
-        width: 390px;
+        width: 350px;
         margin: auto;
         margin-top: 40px;
 
@@ -169,11 +169,11 @@
 
     .conteinerDias div{
         border: 1px solid #9D98DF;
-        width: 100px;
-        height: 40px;
+        width: 90px;
+        height: 35px;
 
         font-family: var(--fontRoboto);
-        font-size: .85em;
+        font-size: .75em;
         border-radius: 5px;
         cursor: pointer;
 
@@ -201,13 +201,13 @@
        margin-top: 100px;
     }
     .areaHorario ul{
-        width: 390px;
+        width: 345px;
         margin: auto;
         margin-top: 40px;
 
         list-style-type: none;
         font-family: var(--fontPoppins);
-        font-size: .85em;
+        font-size: .8em;
 
         display: grid;
         grid-template-columns: repeat(5, 1fr);
@@ -232,13 +232,13 @@
     }
     .observacao h1{
         font-family: var(--fontRoboto);
-        font-size: 1.3em;
+        font-size: 1.2em;
         margin-left: 30px;
         margin-bottom: 10px;
     }
     .observacao p{
-        font-size: .9em;
-        width: 410px;
+        font-size: .8em;
+        width: 350px;
         margin-left: 30px;
         font-family: var(--fontRoboto);
         text-indent: 5px;
@@ -257,13 +257,13 @@
 
      .areaFeedback h3{
         font-family: var(--fontRoboto);
-        font-size: 1.1em;
+        font-size: 1em;
         font-weight: normal;
         text-align: center;
      }
 
      .conteinerFeedback{
-          width: 390px;
+          width: 350px;
           margin: auto;
           margin-top: 40px;
 
@@ -275,15 +275,15 @@
 
      .conteinerFeedback div{
         border: 1px solid #C0C2EE;
-        width: 120px;
-        height: 40px;
+        width: 90px;
+        height: 35px;
         border-radius: 5px;
 
         display: flex;
         align-items: center;
         justify-content: center;
         font-family: var(--fontRoboto);
-        font-size: .85em;
+        font-size: .75em;
 
         cursor: pointer;
         transition: .25s ease-in-out;
@@ -291,7 +291,7 @@
      }
 
      .btnDenunciar{
-        width: 120px;
+        width: 100px;
         height: 40px;
         margin-top: 80px;
         margin-left: 30px;
