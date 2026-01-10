@@ -171,6 +171,14 @@
         scroll-behavior: smooth;
     }
 
+    .secParceiros a{
+        text-decoration: none;
+        color: inherit;
+    }
+
+    .secParceiros a:visited{
+        text-decoration: none;
+    }
 
     .secParceiros:hover .divParceiros:not(:hover){
         opacity: .6;
